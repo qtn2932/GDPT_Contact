@@ -7,7 +7,7 @@
   "author": "Quan Nguyen",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "devDependencies": {
     "nodemon": "^1.18.8",
