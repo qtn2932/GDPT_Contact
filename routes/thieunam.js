@@ -1,7 +1,7 @@
 const express= require('express');
 const db= require('../data/db.js');
 const router= express.Router();
-const data= 'HuynhTruong';
+const data= 'Thiu_Nam_';
 
 router.get('/', (req, res)=>{
     db.find(data)
