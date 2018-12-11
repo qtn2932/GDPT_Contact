@@ -13,11 +13,9 @@ router.get('/', (req, res)=>{
     })
 })
 router.post('/name', (req, res)=>{
-    const params= req.body
-    console.log(params)
+    const params= req.body;
     db.findByName(ht,params.FullName)
     .then(ht=>{
-        console.log(ht)
         res.status(201).json(ht)
     })
     .catch(error=>{
