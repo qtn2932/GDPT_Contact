@@ -1,6 +1,6 @@
-const express= require('express');
-const server= express();
-const cors= require('cors');
+const express= require('express'); // add express to use express router
+const server= express(); // server uses express
+const cors= require('cors');// cors is needed to access data across domain, needed for front end wiring up later
 server.use(express.json());
 server.use(cors());
 
