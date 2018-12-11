@@ -1,0 +1,20 @@
+{
+  "name": "GDPT_Contacts",
+  "version": "1.0.0",
+  "description": "This app is design to help accessing data much faster",
+  "main": "index.js",
+  "repository": "https://github.com/qtn2932/GDPT_Contact",
+  "author": "Quan Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8",
+    "sqlite3": "^4.0.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.2"
+  }
+}
