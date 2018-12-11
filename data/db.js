@@ -13,5 +13,5 @@ function find(table){
 
 function findByName(table, searchParams){
     return db(table)
-    .where(table.FullName).like(searchParams)
+    .where('FullName','like',`%${searchParams}%` )
 }
